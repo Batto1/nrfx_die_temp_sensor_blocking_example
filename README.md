@@ -1,5 +1,8 @@
 # Introduction
-- Example or hal libs aren't created by me. Only some modification in the code is made for demonstration purposes.
+- Example or hal libs aren't created by me. Only some modification in the code is made for demonstrating the simple use and total time to take readings are measured.
+- built-in nRF HAL libs are used.
+- Readings are blocking (i.e. program waits until reading is taken). 
+
 - original example path in Nordic NCS: modules\hal\nordic\nrfx\samples\src\nrfx_temp
 - some modified information from the original example's README is given below.
 
