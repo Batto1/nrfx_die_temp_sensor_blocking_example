@@ -1,5 +1,5 @@
 # Introduction
-- Example or hal libs aren't created by the given author. Only some modification in the code is made for demonstration purposes.
+- Example or hal libs aren't created by me. Only some modification in the code is made for demonstration purposes.
 - original example path in Nordic NCS: modules\hal\nordic\nrfx\samples\src\nrfx_temp
 - some modified information from the original example's README is given below.
 
