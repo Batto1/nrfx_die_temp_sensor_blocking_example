@@ -1,8 +1,9 @@
 # Introduction
 - Example or hal libs aren't created by the given author. Only some modification in the code is made for demonstration purposes.
 - original example path in Nordic NCS: modules\hal\nordic\nrfx\samples\src\nrfx_temp
+- some modified information from the original example's README is given below.
 
-# TEMP blocking example overview {#temp_blocking}
+# TEMP blocking example overview 
 
 The sample demonstrates a functionality of the nrfx_temp driver operating in the blocking mode.
 ## Requirements
