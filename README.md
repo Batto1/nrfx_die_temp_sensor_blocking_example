@@ -1,3 +1,7 @@
+# Introduction
+- Example or hal libs aren't created by the given author. Only some modification in the code is made for demonstration purposes.
+- original example path in Nordic NCS: modules\hal\nordic\nrfx\samples\src\nrfx_temp
+
 # TEMP blocking example overview {#temp_blocking}
 
 The sample demonstrates a functionality of the nrfx_temp driver operating in the blocking mode.
@@ -15,28 +19,14 @@ The sample supports the following development kits:
 ## Overview
 
 Application initializes the nrfx_temp driver and starts operating in the blocking mode.
-Temperature is measured with relevant messages logged until a number of measurements performed is equal to the value specified by the user.
+Temperature is measured until a number of measurements performed is equal to the value specified by the user.
+Time to take some readings are measured and printed at the end. 
 
-> For more information, see **TEMP driver - nrfx documentation**.
+> For more information, see the die temp sensor chapter in the product specification of SoC. 
 
 ## Wiring
 To run this sample, no special configuration is needed.
 You should monitor the output from the board to check if it is as expected.
 
 ## Building and running
-
-To run this sample, build it for the appropriate board and then flash it as per instructions in [Building and running](@ref building_and_running) section.
-
-## Sample output
-
-You should see the following output:
-
-```
-- "Starting nrfx_temp blocking example."
-- "Measured temperature: <temp_value> [C]"
-- "Measured temperature: <temp_value> [C]"
-- "Measured temperature: <temp_value> [C]"
-- "Measured temperature: <temp_value> [C]"
-- "Measured temperature: <temp_value> [C]"
-```
-> In the output, `temp_value` should be displayed as a temperature value in Celsius rounded to two decimal places.
+To run this sample, use nRF Connect for SDK, import your project, build and flash to your device.
