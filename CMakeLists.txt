@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 3.20.0)
 
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(temp_blocking_simple)
+project(nrf_die_temp_blocking_simple)
 
 target_sources(app PRIVATE src/main.c)
 
