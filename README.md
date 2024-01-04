@@ -1,10 +1,9 @@
 # TEMP blocking example overview 
 ## Overview
 
-- Application initializes the nrfx_temp driver and starts operating in the blocking mode. 
+- Application initializes the nrfx_temp driver and starts operating in blocking mode (i.e. program waits until reading is taken).
+- Application demonstrates the simple use of the die temperature sensor inside nRF SoCs.
 - Temperature is measured until a number of measurements performed is equal to the value specified by the user
-- Readings are blocking (i.e. program waits until reading is taken). 
-- Code demonstrates the simple use of the die temperature sensor. 
 - Time to take specified amount of readings are measured and printed at the end.
 - Built-in nRF HAL libs are used. 
 - Example or hal libs aren't created by me. Only some modification in the original sample is made for simplification and demonstration purposes. 
